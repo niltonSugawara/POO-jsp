@@ -100,7 +100,7 @@
                 
           
          <% }catch(Exception ex){%>
-            
+             Entre com um número válido.
         <%}%>
         
     </center>
