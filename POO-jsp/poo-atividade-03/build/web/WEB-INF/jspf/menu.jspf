@@ -1,0 +1,46 @@
+    
+
+        <script src='js/jquery.min.js'></script>
+        <script src='js/bootstrap.min.js'></script>
+        <script src='js/scripts.js'></script>
+        <link href='src/css/bootstrap.css' rel='stylesheet'>
+
+<style>
+        a  {text-decoration: none}
+        #final{color: black; font-size:12px}
+        
+    </style>
+    
+     
+            <div class="row">
+                <div class="col-md-12">
+                    <nav class="nav  nav-tabs" role="navigation">   
+                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                                <ul class="nav navbar-nav">
+                                <li class="active">
+                                    <a href="home.jsp">Página Inicial</a>
+                                </li>
+                                <li class="active">
+                                    <a href="amortizacao-constante.jsp">Amortização Constante</a>
+                                </li>
+                                <li>
+                                  <a href="page3.jsp">Amortização Americana</a>
+                                </li>
+                                <li>
+                                  <a href="page3.jsp">Tabela Price</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </nav>
+                </div>
+                </div>
+                 
+    
+    
+    
+    
+  <!--  
+  <a href="home.jsp">Página Inicial</a>
+| <a href="amortizacaoSAC.jsp">Sistema SAC</a>
+| <a href="page3.jsp">Sistema Price</a>
+<hr/> -->
