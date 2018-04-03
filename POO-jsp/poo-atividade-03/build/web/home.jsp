@@ -25,7 +25,7 @@
                                      <img src='https://avatars0.githubusercontent.com/u/36648465?s=460&v=4' alt='...' class='img-circle' width='242' height='200'>
                                           <div class='caption'>
                                             <h3 style='color: #006666' align='center'>Edvaldo Pietro</h3>
-                                               <p align='center'><b>Github: </b><a href='https://github.com/' target='_blank'>@ </p></a>
+                                               <p align='center'><b>Github: </b><a href='https://github.com/edvaldoprieto' target='_blank'>@edvaldoprieto </p></a>
                                             </div>
                                  </div>
                         	 </div>
@@ -42,8 +42,8 @@
                                   <div class='thumbnail' style='background: #CCC'>
                                      <img src='https://avatars0.githubusercontent.com/u/36648465?s=460&v=4' alt='...' class='img-circle' width='242' height='200'>
                                           <div class='caption'>
-                                            <h3 style='color: #006666' align='center'>Nilton </h3>
-                                               <p align='center'><b>Github: </b><a href='https://github.com/' target='_blank'>@ </p></a>
+                                            <h3 style='color: #006666' align='center'>Nilton Mitsuharu </h3>
+                                               <p align='center'><b>Github: </b><a href='https://github.com/niltonSugawara' target='_blank'>@niltonSugawara </p></a>
                                             </div>
                                  </div>
                         	 </div>
