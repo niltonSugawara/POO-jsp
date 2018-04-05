@@ -3,7 +3,7 @@
     Created on : 01/04/2018, 00:25:08
     Author     : JANAINASILVADIAS
 --%>
-
+<%@page import="java.text.DecimalFormat"%>
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
 <!DOCTYPE html>
 <html>
@@ -36,7 +36,9 @@
            <% int valorAmortizacao = capital/parcelas; %>
            <br/>
            
-           <p>Um empréstimo de $<%=capital%> a ser pago em <%=parcelas%> meses a uma taxa de juros de <%=juros%>% ao mês (em juros simples), portanto, o valor da amortização é constante a cada mês, sendo neste caso: <b>$<%=capital%>/<%=parcelas%> = $<%=valorAmortizacao%></b>. <br/>Logo, a tabela SAC fica:</p>
+           <%DecimalFormat formatador = new DecimalFormat("0.00");%>
+           
+           <p>Um empréstimo de <%=formatador.format(capital)%> a ser pago em <%=parcelas%> meses a uma taxa de juros de <%=juros%>% ao mês (em juros simples), portanto, o valor da amortização é constante a cada mês, sendo neste caso: <b><%=formatador.format(capital)%>/<%=parcelas%> = <%=formatador.format(valorAmortizacao)%></b>. <br/>Logo, a tabela SAC fica:</p>
            
            
             <table border="1" style="text-align: center">
@@ -51,7 +53,7 @@
                 <td> - </td>
                 <td> - </td>
                 <td> - </td>
-                <td>$<%=capital%> </td>
+                <td>$<%=formatador.format(capital)%> </td>
             </tr>
             
 
@@ -72,10 +74,10 @@
             
             <tr>
                 <td> <%=i%> </td>
-                <td>$<%=novaPrestacao%> </td>
-                <td>$<%=novoJuro%> </td>
-                <td>$<%=valorAmortizacao%> </td>
-                <td>$<%=novoCapital%> </td>
+                <td><%=formatador.format(novaPrestacao)%> </td>
+                <td><%=formatador.format(novoJuro)%> </td>
+                <td><%=formatador.format(valorAmortizacao)%> </td>
+                <td><%=formatador.format(novoCapital)%> </td>
             </tr>  
              
              
@@ -90,9 +92,9 @@
                 <%}%>
                 <tr>
                     <td> <b>Total</b> </td>
-                    <td><b>$<%=totalPrestacao%></b> </td>
-                    <td><b>$<%=totalJuro%></b></td>
-                    <td><b>$<%=totalAmortizacao%></b> </td>
+                    <td><b><%=formatador.format(totalPrestacao)%></b> </td>
+                    <td><b><%=formatador.format(totalJuro)%></b></td>
+                    <td><b><%=formatador.format(totalAmortizacao)%></b> </td>
                     <td><b>-</b></td>
             </tr>
             </table>
