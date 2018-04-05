@@ -15,7 +15,7 @@
             <div class="row">
                 <div class="col-md-12">
                     <nav class="nav  nav-tabs" role="navigation">   
-                        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                        <!--<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">-->
                                 <ul class="nav navbar-nav">
                                 <li class="active">
                                     <a href="home.jsp">Página Inicial</a>
@@ -30,7 +30,7 @@
                                   <a href="page3.jsp">Tabela Price</a>
                                 </li>
                             </ul>
-                        </div>
+                        <!--</div>-->
                     </nav>
                 </div>
                 </div>
