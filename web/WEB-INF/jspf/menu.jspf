@@ -27,7 +27,7 @@
                                   <a href="page3.jsp">Amortização Americana</a>
                                 </li>
                                 <li>
-                                  <a href="page3.jsp">Tabela Price</a>
+                                  <a href="amortizacao-price.jsp">Tabela Price</a>
                                 </li>
                             </ul>
                         </div>

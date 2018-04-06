@@ -64,6 +64,27 @@
                 
 		<hr/>
             </center>
+              <center>
+                  <a href='amortizacao-price.jsp' target='_blank'>
+                <h3>Sistema de Cálculo de Amortizaçao PRICE</h3></a><br/>
+                
+                <p><b>Tabela Price</b>, também chamado de sistema francês de
+                   amortização, é um método usado em amortização de empréstimo
+                   cuja principal característica é apresentar prestações
+                   (ou parcelas) iguais. O método foi apresentado em 1771 por
+                   Richard Price em sua obra "Observações sobre Pagamentos
+                   Remissivos" (em inglês: Observations on Reversionary
+                   Payments).O método foi idealizado pelo seu autor para pensões
+                   e aposentadorias. No entanto, foi a partir da 2ª revolução
+                   industrial que sua metodologia de cálculo foi aproveitada
+                   para cálculos de amortização de empréstimo.
+                    
+                </p><br/> 
+                <br/>
+                 
+                
+		<hr/>
+            </center>
                   
     </body>
      <%@include file="WEB-INF/jspf/footer.jspf" %>
